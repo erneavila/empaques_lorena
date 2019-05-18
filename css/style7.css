@@ -1,0 +1,209 @@
+
+
+/* XS */
+@media (max-width: 575px){
+    .logo {
+        width: 117px;
+        
+        margin: 50px 0 0 0;
+    }
+    
+    .tel{
+       text-align: center;
+       font-size: 1.9em;
+       color: tomato;   
+       margin: 0;
+       margin-bottom: 10px;
+       padding: 0;
+    }
+    .bg {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .margen {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 5px;
+     }
+    .social-icons {
+        width: 40px; 
+                
+     }
+
+}
+
+/* SM */
+@media (min-width: 576px) and (max-width:767px){
+    .logo {
+        width: 117px;
+        margin: 50px 0 0 0;
+    }
+    .tel{
+        text-align: center;
+        font-size: 1.9em;
+        color: tomato;   
+        margin: 0;
+        margin-bottom: 10px;
+        padding: 0;
+     }
+    .bg {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .margen {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 5px;
+     }
+    .social-icons {
+        width: 40px; 
+                
+     }
+}
+
+/* MD */
+@media (min-width: 768px) and (max-width: 991px){
+    .logo {
+        width: 117px;
+        margin: 50px 0 0 0;
+    }
+    .tel{
+        text-align: center;
+        font-size: 1.9em;
+        color: tomato;   
+        margin: 0;
+        margin-bottom: 10px;
+        padding: 0;
+     }
+    .bg {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .margen {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 5px;
+     }
+    .social-icons {
+        width: 40px; 
+                
+     }
+
+}
+
+
+/* LG */
+@media only screen and (min-width: 992px){
+    .logo {
+        width: 147px;
+        margin: 20px 0 20px 0;
+    }
+    .row {
+        /* margin-top: 20px;
+        margin-bottom: 10px;
+        margin-right: 0;
+        margin-left: 0; */
+    }
+    .bg {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .tel{
+        font-size: 1.7em;
+        color: tomato;   
+        margin: 0;
+        margin-top: 10px;
+        padding: 0;
+     }
+    .nav{
+        position: absolute;
+        top: 90px;
+     }
+     .margen {
+        margin-top: 20px;
+        padding: 20px;
+     }
+     .social-icons {
+        width: 40px; 
+                
+     }
+    
+
+}
+
+/* XL */
+
+/* @media (min-width: 1200px){
+    
+    .tel{
+        display: block;
+        position: absolute;
+        top: -100px;
+        left: -30px;
+        float: right;
+        font-size: 2.5em;
+        color: tomato;
+        
+    }    
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SLIDER */
+
+* {box-sizing: border-box}
+.mySlides1, .mySlides2 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 530px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.titulo-center {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
