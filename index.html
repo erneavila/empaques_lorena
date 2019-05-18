@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EMPAQUES LORENA</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style7.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <div class="container">
+        <div class="row">
+            <!-- logo -->
+            <div class="col-12 col-lg-6 text-lg-right text-center">
+                <img src="images/logo3.png" class="logo">
+            </div>
+            <!-- menu -->
+            <div class="col-12 col-lg-6">
+                <nav class="navbar navbar-expand navbar-light bg-white justify-content-center justify-content-lg-start">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#historia">Historia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#productos">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+                    
+                    </ul>
+                </nav>
+                
+            </div>
+            <!-- telefono -->
+            
+            
+        </div>
+    </div>
+    
+    <!-- SLIDE -->
+    <img src="images/bg.jpg" class="bg">
+    
+    <div class="container">
+        <hr>
+        <div class="row">
+                       
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-4">
+                
+            </div>
+
+            <div class="col-12 col-md-4 margen bg-warning">
+                <h4 id="historia" class="text-center">Nuestra Historia</h4>
+                <p class="text-justify">Fundada en el año 2002, Empaques LORENA es una empresa familiar con 17 años de experiencia en el mercado de hojas para tamal.</p>
+                <p class="text-justify">Gracias a la visión del Sr. Gustavo Suñiga, la empresa hoy es un gran referente a nivel nacional. Comercializamos productos excelentes, apoyamos al productor y mantenemos la innovación permanente en nuestros procesos, con la única finalidad de ofrecer a nuestros clientes la mejor calidad posible. </p>
+            </div>
+            
+            <div class="col-12 col-md-4">
+                
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-12 alinear">
+                <h4 id="productos" class="text-center">Nuestros Productos</h4>
+            </div>
+            <div class="col-12">
+                <div class="slideshow-container">
+                    <div class="mySlides1">
+                        <img src="images/pr1.jpg" style="width:100%">
+                    </div>
+    
+                    <div class="mySlides1">
+                        <img src="images/pr2.jpg" style="width:100%">
+                    </div>
+    
+                    <div class="mySlides1">
+                        <img src="images/pr3.jpg" style="width:100%">
+                    </div>
+
+                 
+
+                    <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+                </div>
+                <hr>                
+            </div>
+            <div class="col-12 col-md-2"></div>
+
+            <div class="col-12 col-md-4 text-justify">
+                
+                
+            </div>
+            <div class="col-12 col-md-4">
+                            
+            </div>
+            <hr>
+        </div>
+    </div>
+    <div id="contacto" class="container-fluid bg-warning">
+        
+        <div class="row text-center text-lg-left">
+            <div class="col-lg-2 d-none d-lg-block"></div>
+            
+            <div class="col-lg-3 margen">
+                <h4 class="font-weight-bold" style="font-family:Arial, Helvetica, sans-serif">EMPAQUES LORENA</h4>
+                <h6 style="font-family:Arial, Helvetica, sans-serif">Francisco Villa #71</h6>
+                <h6 style="font-family:Arial, Helvetica, sans-serif">El Salitre, Jalisco, MÉXICO</h6>
+                <h5 class="font-italic font-weight-bold">TEL: 01 (385) 733 7208</h5>
+            </div>
+            
+            <div class="col-lg-2 margen">
+                <h5 class="text-lg-left">Enlaces</h5>
+                <ul class="list-unstyled">
+                    <li>Nosotros</li>
+                    <li>Misión</li>
+                    <li>Visión</li>
+                </ul>
+            </div>
+
+            <div class="col-lg-3 margen text-center">
+                <h5 class="text-lg-left">Redes Sociales</h5>
+                
+                <img class="social-icons float-lg-left" src="images/facebook.svg">
+                <img class="social-icons float-lg-left" src="images/twitter.svg">
+                <img class="social-icons float-lg-left" src="images/instagram.svg">
+                
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script>
+        var slideIndex = [1,1];
+        var slideId = ["mySlides1", "mySlides2"]
+        showSlides(1, 0);
+        showSlides(1, 1);
+
+        function plusSlides(n, no) {
+        showSlides(slideIndex[no] += n, no);
+        }
+
+        function showSlides(n, no) {
+        var i;
+        var x = document.getElementsByClassName(slideId[no]);
+        if (n > x.length) {slideIndex[no] = 1}    
+        if (n < 1) {slideIndex[no] = x.length}
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+        }
+        x[slideIndex[no]-1].style.display = "block";  
+        }
+    </script>
+</body>
+</html>
